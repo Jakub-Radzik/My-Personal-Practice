@@ -1,0 +1,4 @@
+io\radzik\Model\Player.class
+io\radzik\Services\PlayerService.class
+PlayerServlet.class
+io\radzik\Controllers\PlayerController.class
