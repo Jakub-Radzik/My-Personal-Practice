@@ -1,0 +1,9 @@
+<p>parent1 works!</p>
+<app-child1a (messageEvent)="receiveMessageFromChild($event)">
+
+</app-child1a>
+<div>{{message}}</div>
+<div>
+  <div *ngFor="let item of items">{{item}}</div>
+  <div *ngFor="let person of persons">{{person.name}} {{person.age}}</div>
+</div>
