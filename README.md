@@ -7,15 +7,15 @@ MY PERSONAL PRACTICE</br>
 <ul>
   <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Angular</li>
     <ul>
-      <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Journey</li>
-      <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Routing</li>
-      <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Deep</li>
+      <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Journey</b> - <span>Starter</span></li>
+      <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Routing</b> - <span>Routing examples</span></li>
+      <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Deep</b> - <span>Guards, 404, and basics</span></li>
     </ul>
-  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Maven Servlets</li>
-  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Spring AOP</li>
-  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> SpringJDBC Starter</li>
-  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> SpringWEB Starter</li>
-  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Testy jednostkowe JUNIT5</li>
+  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Maven Servlets</b> - <span>DEPRECATED</span></li>
+  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Spring AOP</b> - <span>Creating Aspects with advices</span></li>
+  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>SpringJDBC Starter</b> - <span>Examples with EntityManager but also example with JPA</span></li>
+  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>SpringWEB Starter</b> - <span>Some REST API</span></li>
+  <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Testy jednostkowe JUNIT5</b></li>
 </ul>
 
 
