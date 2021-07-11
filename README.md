@@ -1,8 +1,5 @@
 # My-Personal-Practice
-Java Maven Servlets Spring MVC AOP JDBC JPA Educative Course
-</br>
-MY PERSONAL PRACTICE</br>
-</br>
+## Some projects and examples I made during learning 
 
 <ul>
   <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> Angular</li>
