@@ -14,8 +14,8 @@
     <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>SpringJDBC Starter</b> - <span>Examples with EntityManager but also example with JPA</span></li>
     <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>SpringWEB Starter</b> - <span>Some REST API</span></li>
     <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Into Transactions</b> - <span>Transactions, JPA, Few hibernate relations</span></li>
-<li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>CreatingDBWithRelations</b> - <span>Examples with hibernate from Bykowski.pl</span></li>
-<li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Spring Data JPA with Hibernate</b> - <span>Course from Pluralsight By Bryan Hansen (requirements: Docker) *working*</span></li>
+<li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>CreatingDBWithRelations</b> - <span>Examples with hibernate from <a href="https://www.bykowski.pl">Bykowski.pl</a></span></li>
+<li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Spring Data JPA with Hibernate</b> - <span><a href="https://app.pluralsight.com/library/courses/spring-jpa-hibernate/table-of-contents">Course from Pluralsight</a> By Bryan Hansen (requirements: Docker) *working on*</span></li>
   </ul>
     <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Maven Servlets</b> - <span>DEPRECATED</span></li>
     <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Testy jednostkowe JUNIT5</b> - <span>Course about JUNIT5</span></li>
