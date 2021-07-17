@@ -1,7 +1,6 @@
-package com.example.demo.model;
+package com.example.demo.Model;
 
 import lombok.Getter;
-import lombok.NonNull;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -24,6 +23,5 @@ public class Registration {
     private Long id;
 
     private String name;
-
 
 }

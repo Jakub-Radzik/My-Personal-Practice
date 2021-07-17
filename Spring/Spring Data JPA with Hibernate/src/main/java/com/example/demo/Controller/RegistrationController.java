@@ -1,7 +1,7 @@
 package com.example.demo.Controller;
 
 import com.example.demo.Service.RegistrationService;
-import com.example.demo.model.Registration;
+import com.example.demo.Model.Registration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;

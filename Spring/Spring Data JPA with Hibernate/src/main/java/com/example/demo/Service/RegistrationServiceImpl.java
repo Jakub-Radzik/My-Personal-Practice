@@ -1,6 +1,6 @@
 package com.example.demo.Service;
 
-import com.example.demo.model.Registration;
+import com.example.demo.Model.Registration;
 import com.example.demo.repository.RegistrationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

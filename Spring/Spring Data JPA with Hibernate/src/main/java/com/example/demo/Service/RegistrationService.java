@@ -1,6 +1,6 @@
 package com.example.demo.Service;
 
-import com.example.demo.model.Registration;
+import com.example.demo.Model.Registration;
 
 import javax.transaction.Transactional;
 

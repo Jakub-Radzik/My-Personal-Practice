@@ -1,7 +1,6 @@
 package com.example.demo.repository;
 
-import com.example.demo.model.User;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.demo.Model.User;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

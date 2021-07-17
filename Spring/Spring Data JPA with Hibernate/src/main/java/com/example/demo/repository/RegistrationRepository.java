@@ -1,6 +1,6 @@
 package com.example.demo.repository;
 
-import com.example.demo.model.Registration;
+import com.example.demo.Model.Registration;
 
 /**
  * Created by IntelliJ IDEA.

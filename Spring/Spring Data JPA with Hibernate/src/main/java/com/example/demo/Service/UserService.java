@@ -1,6 +1,6 @@
 package com.example.demo.Service;
 
-import com.example.demo.model.User;
+import com.example.demo.Model.User;
 
 /**
  * Created by IntelliJ IDEA.
