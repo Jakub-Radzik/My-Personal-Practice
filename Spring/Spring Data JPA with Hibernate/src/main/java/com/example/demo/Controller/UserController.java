@@ -3,6 +3,7 @@ package com.example.demo.Controller;
 import com.example.demo.Service.UserService;
 import com.example.demo.Model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,6 +22,10 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @Value("${envname}")
+    String envname;
+
+
     @GetMapping("/user")
     public User getUser(
             @RequestParam(value = "firstname", defaultValue = "Bryan") String firstname,
@@ -32,6 +37,16 @@ public class UserController {
         user.setAge(age);
 
         return user;
+    }
+
+    @GetMapping("/count")
+    public Long getUserCount(){
+        return userService.usersCount();
+    }
+
+    @GetMapping("/env")
+    public String env(){
+        return envname;
     }
 
     @PostMapping("/user")

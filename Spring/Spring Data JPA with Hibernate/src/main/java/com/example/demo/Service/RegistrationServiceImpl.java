@@ -1,7 +1,9 @@
 package com.example.demo.Service;
 
+import com.example.demo.Model.Course;
 import com.example.demo.Model.Registration;
-import com.example.demo.repository.RegistrationRepository;
+import com.example.demo.Repository.CourseRepository;
+import com.example.demo.Repository.RegistrationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,11 +20,22 @@ import javax.transaction.Transactional;
 public class RegistrationServiceImpl implements RegistrationService {
 
     @Autowired
-    RegistrationRepository registrationRepository;
+    private RegistrationRepository registrationRepository;
+    @Autowired
+    private CourseRepository courseRepository;
 
     @Override
     @Transactional
     public Registration addRegistration(Registration registration) {
-        return registrationRepository.save(registration);
+        registration = registrationRepository.save(registration);
+
+        Course course = new Course();
+        course.setName("Intro");
+        course.setDescription("Every attendee must");
+        course.setRegistration(registration);
+
+        courseRepository.save(course);
+
+        return registration;
     }
 }

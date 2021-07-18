@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.Repository;
 
 import com.example.demo.Model.User;
 
@@ -11,4 +11,5 @@ import com.example.demo.Model.User;
  */
 public interface UserRepository {
     User save(User user);
+
 }
