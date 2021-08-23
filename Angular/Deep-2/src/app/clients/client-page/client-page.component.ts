@@ -15,7 +15,7 @@ export class ClientPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.clientService.log('Component just started');
+    console.log('Component just started');
   }
 
   saveClient(clientDetails: Client): void {

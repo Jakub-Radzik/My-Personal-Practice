@@ -10,8 +10,9 @@ import { SharedModule } from './shared/shared.module';
 import { CustomMaterialModule } from './custom-material.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AboutModule } from './about/about.module';
-import { HttpClientModule } from '@angular/common/http';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {PostsService} from './clients/posts.service';
+import {AuthenticationInterceptor} from './services/authentication.interceptor';
 
 
 @NgModule({
@@ -27,7 +28,11 @@ import {PostsService} from './clients/posts.service';
     AboutModule,
     SharedModule
   ],
-  providers: [PostsService],
+  providers: [PostsService, {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthenticationInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
