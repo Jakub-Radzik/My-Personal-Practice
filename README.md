@@ -1,4 +1,4 @@
-# My-Personal-Practice
+# My-Personal-Practice Java And Angular
 ## Some projects and examples I made during learning 
 
 <ul>
