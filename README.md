@@ -18,7 +18,8 @@
 <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Spring Data JPA with Hibernate</b> - <span><a href="https://app.pluralsight.com/library/courses/spring-jpa-hibernate/table-of-contents">Course from Pluralsight</a> By Bryan Hansen (requirements: Docker) *working on*</span></li>
   </ul>
     <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Maven Servlets</b> - <span>DEPRECATED</span></li>
-    <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Testy jednostkowe JUNIT5</b> - <span>Course about JUNIT5</span></li>
+    <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>Testy jednostkowe JUNIT5</b> - <span>Course about JUNIT5</span>
+    <li><img src="https://image.flaticon.com/icons/png/512/3767/3767084.png" height="20px"/> <b>nestjs starter</b> - <span>NestJS Documentation</span></li>
 </ul>
 
 
